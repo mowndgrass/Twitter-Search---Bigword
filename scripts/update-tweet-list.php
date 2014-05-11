@@ -49,4 +49,5 @@ $context = stream_context_create($opts);
 // Replace this string with your search term
 $tweets = file_get_contents($api_base.'1.1/search/tweets.json?q="i%20fucking%20love"&src=typd&count=100',false,$context);
 
+file_put_contents("../data/tweetlist.json", $tweets); // Write the contents of the API search to our json file
 ?>

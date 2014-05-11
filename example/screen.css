@@ -3,7 +3,7 @@ html, body {
 	-webkit-font-smoothing:antialiased;
 	position: relative;
 }
-.love {
+.tweet-container {
 	margin: 0 0 0 2em;
 }
 h1 {
@@ -34,21 +34,21 @@ h1 a:hover,
 h1 a:focus {
     color:#000;
 }
-.author {
+.screen-name {
 	font-family: Georgia, Times, "Times New Roman", serif;
 	font-style:italic;
 	display: block;
 	width:70%;
 	text-align: right;
 }
-.author a,
-.author a:link,
-.author a:visited {
+.screen-name a,
+.screen-name a:link,
+.screen-name a:visited {
 	color:#C54A42;
 }
-.author a:hover,
-.author a:active,
-.author a:focus {
+.screen-name a:hover,
+.screen-name a:active,
+.screen-name a:focus {
 	color:#f00f00;
 }
 .buttons {

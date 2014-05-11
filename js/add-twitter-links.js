@@ -1,4 +1,8 @@
-/**@author Alex Cyphus @file add-twitter-links.minify.js @dependecies none*/
+/**
+    @author Alex Cyphus 
+    @file add-twitter-links.minify.js 
+    @dependecies none
+    */
 function addTwitterLinks(e) {
     return e.replace(/(^|\s)[\@\#]([a-zA-z0-9_]*)/g, function (e, t, n) {
         var r = '<a href="http://twitter.com/';
